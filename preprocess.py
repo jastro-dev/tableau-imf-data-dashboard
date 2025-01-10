@@ -11,9 +11,6 @@ countries_df.columns = countries_df.columns.str.replace(r' \[\w+\]', '', regex=T
 # Remove the bracketed units from the column names of the regions dataframe
 regions_df.columns = regions_df.columns.str.replace(r' \[\w+\]', '', regex=True)
 
-# Rename the 'Country Name' column in the regions dataframe to 'Region Name'
-regions_df = regions_df.rename(columns={'Country Name': 'Region Name'})
-
 # Remove the 'Series Name' column from the regions dataframe
 regions_df.drop(columns=['Series Name'], inplace=True)
 # Remove the 'Series Name' column from the countries dataframe
@@ -25,6 +22,6 @@ regions_df['Type'] = 'Region'
 countries_df['Type'] = 'Country'
 
 # Concatenate the regions and countries dataframes into a single dataframe
-combined_df = pd.concat([regions_df, countries_df], ignore_index=True)
+combined_df = pd.concat([regions_df, countries_df], ignore_index=True, axis=0)
 # Save the combined dataframe to a CSV file
 combined_df.to_csv('data/processed/IMF Data.csv', index=False)
