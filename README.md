@@ -28,7 +28,7 @@ A Tableau project replicating the IMF's GDP Growth dashboard using provided data
   - `main_notebook_analytical_groups.ipynb`
   - `main_notebook_normalize.ipynb`
   - `main_notebook.ipynb`
-- `scripts/` - Contains the data pipelines.
+- `pipelines/` - Contains the data pipelines.
   - `process_all_from_excel_normalized.py` - Pipeline that expands `IMF Data.xlsx` and `IMF Data analytical-groups.xls` files into normalized `.csv` files stored in `/data/processed_norm/`
   - `process_all_from_excel.py` - Pipeline that merges `IMF Data.xlsx` and `IMF Data analytical-groups.xls` files into singular processed `.csv`
   - `process_all.py` - Pipeline that merges all three raw `.csv` files into singular processed `.csv`
