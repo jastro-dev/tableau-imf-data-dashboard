@@ -2,8 +2,12 @@ import pandas as pd
 
 # Load the regions dataset from a CSV file
 regions_df = pd.read_csv('data/raw/IMF Data regions.csv')
+
 # Load the countries dataset from a CSV file
 countries_df = pd.read_csv('data/raw/IMF Data countries.csv')
+
+# Load the analytical groups dataset from a CSV file
+analytical_group_df = pd.read_csv('data/raw/IMF Data analytical-groups.csv')
 
 # Drop nulls
 regions_df.dropna(inplace=True)
@@ -25,7 +29,17 @@ regions_df['Type'] = 'Region'
 # Add a 'Type' column to the countries dataframe and set all values to 'Country'
 countries_df['Type'] = 'Country'
 
-# Concatenate the regions and countries dataframes into a single dataframe
-combined_df = pd.concat([regions_df, countries_df], ignore_index=True, axis=0)
-# Save the combined dataframe to a CSV file
-combined_df.to_csv('data/processed/IMF Data.csv', index=False)
+# Drop nulls
+analytical_group_df.dropna(inplace=True)
+
+# Remove specific columns from the DataFrame that represent years not needed
+analytical_group_df.drop(columns=['1980', '1981', '1982', '1983', '1984', '1985', '1986', '1987', '1988', '1989', '2024', '2025', '2026', '2027', '2028', '2029'], inplace=True)
+
+# Rename the 'Real GDP growth (Annual percent change)' column to 'Country Name' in order to match original dataset
+analytical_group_df.rename(columns={'Real GDP growth (Annual percent change)': 'Country Name'}, inplace=True)
+
+# Add a new column called 'Type' to the DataFrame and set all its values to 'Analytical group'
+analytical_group_df['Type'] = 'Analytical group'
+
+# Save the modified DataFrame to a new CSV file, excluding the index
+analytical_group_df.to_csv('data/processed/IMF Data analytical-groups.csv', index=False)
