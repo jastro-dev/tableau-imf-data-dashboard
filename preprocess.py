@@ -27,4 +27,4 @@ countries_df['Type'] = 'Country'
 # Concatenate the regions and countries dataframes into a single dataframe
 combined_df = pd.concat([regions_df, countries_df], ignore_index=True)
 # Save the combined dataframe to a CSV file
-combined_df.to_csv('data/processed/IMF Data.csv')
+combined_df.to_csv('data/processed/IMF Data.csv', index=False)
