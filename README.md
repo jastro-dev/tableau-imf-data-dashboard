@@ -8,6 +8,9 @@ A Tableau project replicating the IMF's GDP Growth dashboard using provided data
 
 - `imf_workbook.twbx` - Tableau workbook containing the replicated dashboard.
 - `data/` - Contains the data files.
+  - `processed/`
+    - `IMF Data full.csv` - Final processed dataset with all data (Country, Regions, Analytical groups).
+    - `IMF Data.csv` - Temp processed dataset with partial data (only Country and Regions).
   - `processed_norm/`
     - `IMF Data normalized_country_t.csv` - Normalized table of countries.
     - `IMF Data normalized_region_t.csv` - Normalized table of regions.
