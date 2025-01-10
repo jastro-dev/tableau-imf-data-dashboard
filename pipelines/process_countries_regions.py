@@ -1,10 +1,21 @@
+import os
+import pandas as pd
+
 if __name__ == "__main__":
-    import pandas as pd
+
+    # Get the absolute path of the current script
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    
+    # Construct file paths relative to the script's location
+    regions_file = os.path.join(script_dir, '../data/raw/IMF Data regions.csv')
+    countries_file = os.path.join(script_dir, '../data/raw/IMF Data countries.csv')
+    processed_file = os.path.join(script_dir, '../data/processed/IMF Data.csv')
 
     # Load the regions dataset from a CSV file
-    regions_df = pd.read_csv('data/raw/IMF Data regions.csv')
+    regions_df = pd.read_csv(regions_file)
+
     # Load the countries dataset from a CSV file
-    countries_df = pd.read_csv('data/raw/IMF Data countries.csv')
+    countries_df = pd.read_csv(countries_file)
 
     # Drop nulls
     regions_df.dropna(inplace=True)
@@ -29,4 +40,4 @@ if __name__ == "__main__":
     # Concatenate the regions and countries dataframes into a single dataframe
     combined_df = pd.concat([regions_df, countries_df], ignore_index=True, axis=0)
     # Save the combined dataframe to a CSV file
-    combined_df.to_csv('data/processed/IMF Data.csv', index=False)
+    combined_df.to_csv(processed_file, index=False)

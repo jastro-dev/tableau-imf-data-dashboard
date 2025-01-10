@@ -1,14 +1,24 @@
-if __name__ == '__main__':
-    import pandas as pd
+import os
+import pandas as pd
+
+def main():
+    # Get the absolute path of the current script
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    
+    # Construct file paths relative to the script's location
+    regions_file = os.path.join(script_dir, '../data/raw/IMF Data regions.csv')
+    countries_file = os.path.join(script_dir, '../data/raw/IMF Data countries.csv')
+    analytical_groups_file = os.path.join(script_dir, '../data/raw/IMF Data analytical-groups.csv')
+    processed_file = os.path.join(script_dir, '../data/processed/IMF Data full.csv')
 
     # Load the regions dataset from a CSV file
-    regions_df = pd.read_csv('data/raw/IMF Data regions.csv')
+    regions_df = pd.read_csv(regions_file)
 
     # Load the countries dataset from a CSV file
-    countries_df = pd.read_csv('data/raw/IMF Data countries.csv')
+    countries_df = pd.read_csv(countries_file)
 
     # Load the analytical groups dataset from a CSV file
-    analytical_group_df = pd.read_csv('data/raw/IMF Data analytical-groups.csv')
+    analytical_group_df = pd.read_csv(analytical_groups_file)
 
     # Drop nulls
     regions_df.dropna(inplace=True)
@@ -53,7 +63,7 @@ if __name__ == '__main__':
             '2028',
             '2029',
         ],
-        inplace=True,
+        inplace = True,
     )
 
     # Rename the 'Real GDP growth (Annual percent change)' column to 'Country Name' in order to match original dataset
@@ -61,6 +71,12 @@ if __name__ == '__main__':
 
     # Add a new column called 'Type' to the DataFrame and set all its values to 'Analytical group'
     analytical_group_df['Type'] = 'Analytical group'
+    
+    # Combine dataframes
+    combined_df = pd.concat([regions_df, countries_df, analytical_group_df], ignore_index=True, axis=0)
 
     # Save the modified DataFrame to a new CSV file, excluding the index
-    analytical_group_df.to_csv('data/processed/IMF Data analytical-groups.csv', index=False)
+    combined_df.to_csv(processed_file, index=False)
+
+if __name__ == '__main__':
+    main()
