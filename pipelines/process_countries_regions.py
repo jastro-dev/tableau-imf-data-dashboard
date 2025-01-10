@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-if __name__ == "__main__":
+def main():
 
     # Get the absolute path of the current script
     script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -41,3 +41,6 @@ if __name__ == "__main__":
     combined_df = pd.concat([regions_df, countries_df], ignore_index=True, axis=0)
     # Save the combined dataframe to a CSV file
     combined_df.to_csv(processed_file, index=False)
+    
+if __name__ == "__main__":
+    main()

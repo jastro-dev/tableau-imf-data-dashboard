@@ -20,6 +20,7 @@ A Tableau project replicating the IMF's GDP Growth dashboard using provided data
   - `main_notebook_analytical_groups.ipynb`
   - `main_notebook.ipynb`
 - `scripts/` - Contains the data pipelines.
+  - `process_all_from_excel.py` - Pipeline that merges `IMF Data.xlsx` and `IMF Data analytical-groups.xls` files into singular processed `.csv`
   - `process_all.py` - Pipeline that merges all three raw `.csv` files into singular processed `.csv`
   - `process_countries_regions.py` - Temp pipeline that merges countries and regions `.csv` files into singular processed `.csv`
 - Reference: [IMF Dashboard](https://www.imf.org/external/datamapper/NGDP_RPCH@WEO/OEMDC/ADVEC/WEOWORLD)
@@ -47,8 +48,7 @@ This project involved analyzing the dataset and recreating a detailed dashboard 
 ### Development Process
 
 1. **Data Preparation**:
-   - The original Excel dataset (`IMF Data.xlsx`) is split into separate CSV files
-   - All datasets are processed and merged into a final CSV (`data/processed/IMF Data full.csv.csv`) using `scripts/process_all.py`.
+   - The original Excel datasets (`IMF Data.xlsx` and `IMF Data analytical-groups.xls`) are processed and merged into a final CSV (`data/processed/IMF Data full.csv.csv`) using `scripts/process_all_from_excel.py`.
    - The `scripts` directory contains the python files for data processing.
    - This combined dataset is then imported into Tableau.
    - Data cleaning and transformations are performed using the python scripts to align with visualization requirements.
