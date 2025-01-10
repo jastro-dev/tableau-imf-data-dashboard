@@ -2,9 +2,7 @@
 
 A Tableau project replicating the IMF's GDP Growth dashboard using provided data. This project demonstrates proficiency in data visualization and Tableau dashboard design.
 
-## Final results: [imf_workbook on Tableau Public](https://public.tableau.com/views/imf_workbook/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-
----
+### Final results: **[imf_workbook on Tableau Public](https://public.tableau.com/views/imf_workbook/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
 ## Project Structure
 
