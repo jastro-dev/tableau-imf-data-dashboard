@@ -1,0 +1,348 @@
+Region,Country
+Africa (Region),Algeria
+Africa (Region),Kenya
+Africa (Region),Guinea-Bissau
+Africa (Region),Guinea
+Africa (Region),Ghana
+Africa (Region),"Gambia, The"
+Africa (Region),Gabon
+Africa (Region),Ethiopia
+Africa (Region),Eswatini
+Africa (Region),Eritrea
+Africa (Region),Equatorial Guinea
+Africa (Region),Lesotho
+Africa (Region),Egypt
+Africa (Region),Côte d'Ivoire
+Africa (Region),"Congo, Republic of"
+Africa (Region),"Congo, Dem. Rep. of the"
+Africa (Region),Zambia
+Africa (Region),Comoros
+Africa (Region),Chad
+Africa (Region),Central African Republic
+Africa (Region),Cameroon
+Africa (Region),Cabo Verde
+Africa (Region),Burundi
+Africa (Region),Djibouti
+Africa (Region),Burkina Faso
+Africa (Region),Liberia
+Africa (Region),Madagascar
+Africa (Region),Uganda
+Africa (Region),Tunisia
+Africa (Region),Togo
+Africa (Region),Tanzania
+Africa (Region),São Tomé and Príncipe
+Africa (Region),Sudan
+Africa (Region),"South Sudan, Republic of"
+Africa (Region),South Africa
+Africa (Region),Somalia
+Africa (Region),Sierra Leone
+Africa (Region),Libya
+Africa (Region),Seychelles
+Africa (Region),Rwanda
+Africa (Region),Nigeria
+Africa (Region),Niger
+Africa (Region),Namibia
+Africa (Region),Mozambique
+Africa (Region),Morocco
+Africa (Region),Mauritius
+Africa (Region),Mauritania
+Africa (Region),Mali
+Africa (Region),Malawi
+Africa (Region),Senegal
+Africa (Region),Botswana
+Africa (Region),Zimbabwe
+Africa (Region),Benin
+Africa (Region),Angola
+Asia and Pacific,Kyrgyz Republic
+Asia and Pacific,Turkmenistan
+Asia and Pacific,Malaysia
+Asia and Pacific,Tonga
+Asia and Pacific,"China, People's Republic of"
+Asia and Pacific,"Korea, Republic of"
+Asia and Pacific,Bhutan
+Asia and Pacific,Philippines
+Asia and Pacific,Samoa
+Asia and Pacific,Singapore
+Asia and Pacific,Mongolia
+Asia and Pacific,"Micronesia, Fed. States of"
+Asia and Pacific,Maldives
+Asia and Pacific,Cambodia
+Asia and Pacific,Timor-Leste
+Asia and Pacific,Japan
+Asia and Pacific,Kiribati
+Asia and Pacific,Thailand
+Asia and Pacific,Marshall Islands
+Asia and Pacific,Tajikistan
+Asia and Pacific,Solomon Islands
+Asia and Pacific,Brunei Darussalam
+Asia and Pacific,Sri Lanka
+Asia and Pacific,Taiwan Province of China
+Asia and Pacific,Hong Kong SAR
+Asia and Pacific,Australia
+Asia and Pacific,Indonesia
+Asia and Pacific,Armenia
+Asia and Pacific,Afghanistan
+Asia and Pacific,Nepal
+Asia and Pacific,Vietnam
+Asia and Pacific,Azerbaijan
+Asia and Pacific,Nauru
+Asia and Pacific,Georgia
+Asia and Pacific,New Zealand
+Asia and Pacific,Lao P.D.R.
+Asia and Pacific,Macao SAR
+Asia and Pacific,Papua New Guinea
+Asia and Pacific,Pakistan
+Asia and Pacific,Vanuatu
+Asia and Pacific,Kazakhstan
+Asia and Pacific,Uzbekistan
+Asia and Pacific,Myanmar
+Asia and Pacific,"Türkiye, Republic of"
+Asia and Pacific,Palau
+Asia and Pacific,Tuvalu
+Asia and Pacific,Bangladesh
+Asia and Pacific,India
+Asia and Pacific,Fiji
+Australia and New Zealand,Australia
+Australia and New Zealand,New Zealand
+Caribbean,Saint Kitts and Nevis
+Caribbean,Jamaica
+Caribbean,Barbados
+Caribbean,Puerto Rico
+Caribbean,Haiti
+Caribbean,Saint Vincent and the Grenadines
+Caribbean,Trinidad and Tobago
+Caribbean,"Bahamas, The"
+Caribbean,Suriname
+Caribbean,Saint Lucia
+Caribbean,Dominica
+Caribbean,Grenada
+Caribbean,Guyana
+Caribbean,Antigua and Barbuda
+Caribbean,Belize
+Central America,Costa Rica
+Central America,Nicaragua
+Central America,Dominican Republic
+Central America,Guatemala
+Central America,Honduras
+Central America,Panama
+Central America,El Salvador
+Central Asia and the Caucasus,Kyrgyz Republic
+Central Asia and the Caucasus,Turkmenistan
+Central Asia and the Caucasus,Armenia
+Central Asia and the Caucasus,Georgia
+Central Asia and the Caucasus,Uzbekistan
+Central Asia and the Caucasus,Kazakhstan
+Central Asia and the Caucasus,"Türkiye, Republic of"
+Central Asia and the Caucasus,Afghanistan
+Central Asia and the Caucasus,Azerbaijan
+Central Asia and the Caucasus,Tajikistan
+East Asia,Macao SAR
+East Asia,Taiwan Province of China
+East Asia,"China, People's Republic of"
+East Asia,Hong Kong SAR
+East Asia,"Korea, Republic of"
+East Asia,Mongolia
+East Asia,Japan
+Eastern Europe,Moldova
+Eastern Europe,Montenegro
+Eastern Europe,Latvia
+Eastern Europe,Albania
+Eastern Europe,Bosnia and Herzegovina
+Eastern Europe,Lithuania
+Eastern Europe,Bulgaria
+Eastern Europe,Ukraine
+Eastern Europe,Romania
+Eastern Europe,Estonia
+Eastern Europe,Slovenia
+Eastern Europe,Belarus
+Eastern Europe,Hungary
+Eastern Europe,Czech Republic
+Eastern Europe,Slovak Republic
+Eastern Europe,Kosovo
+Eastern Europe,Poland
+Eastern Europe,Russian Federation
+Eastern Europe,Croatia
+Eastern Europe,Serbia
+Eastern Europe,North Macedonia
+Europe,Greece
+Europe,Estonia
+Europe,Germany
+Europe,Malta
+Europe,Luxembourg
+Europe,Hungary
+Europe,Andorra
+Europe,Lithuania
+Europe,France
+Europe,Moldova
+Europe,Iceland
+Europe,Latvia
+Europe,Finland
+Europe,Ireland
+Europe,Montenegro
+Europe,Kosovo
+Europe,Romania
+Europe,North Macedonia
+Europe,Croatia
+Europe,Serbia
+Europe,Slovak Republic
+Europe,Slovenia
+Europe,Netherlands
+Europe,Bulgaria
+Europe,San Marino
+Europe,Sweden
+Europe,Bosnia and Herzegovina
+Europe,Ukraine
+Europe,United Kingdom
+Europe,Albania
+Europe,Belgium
+Europe,Belarus
+Europe,Switzerland
+Europe,Russian Federation
+Europe,Spain
+Europe,Cyprus
+Europe,Denmark
+Europe,Norway
+Europe,Austria
+Europe,Czech Republic
+Europe,Portugal
+Europe,Poland
+Europe,Italy
+Middle East (Region),United Arab Emirates
+Middle East (Region),Israel
+Middle East (Region),Jordan
+Middle East (Region),Bahrain
+Middle East (Region),Syria
+Middle East (Region),Qatar
+Middle East (Region),Yemen
+Middle East (Region),Iraq
+Middle East (Region),Kuwait
+Middle East (Region),Oman
+Middle East (Region),West Bank and Gaza
+Middle East (Region),Lebanon
+Middle East (Region),Iran
+Middle East (Region),Saudi Arabia
+North Africa,West Bank and Gaza
+North Africa,Israel
+North Africa,United Arab Emirates
+North Africa,Jordan
+North Africa,Syria
+North Africa,Oman
+North Africa,Lebanon
+North Africa,Iraq
+North Africa,Qatar
+North Africa,Kuwait
+North Africa,Yemen
+North Africa,Iran
+North Africa,Saudi Arabia
+North Africa,Bahrain
+North America,Mexico
+North America,Canada
+North America,United States
+Pacific Islands,Kiribati
+Pacific Islands,Fiji
+Pacific Islands,Tuvalu
+Pacific Islands,Palau
+Pacific Islands,Samoa
+Pacific Islands,Solomon Islands
+Pacific Islands,"Micronesia, Fed. States of"
+Pacific Islands,Papua New Guinea
+Pacific Islands,Vanuatu
+Pacific Islands,Marshall Islands
+Pacific Islands,Nauru
+Pacific Islands,Tonga
+South America,Uruguay
+South America,Paraguay
+South America,Ecuador
+South America,Peru
+South America,Argentina
+South America,Colombia
+South America,Chile
+South America,Brazil
+South America,Bolivia
+South America,Venezuela
+South Asia,Nepal
+South Asia,Pakistan
+South Asia,Maldives
+South Asia,Bangladesh
+South Asia,Sri Lanka
+South Asia,Bhutan
+South Asia,India
+Southeast Asia,Timor-Leste
+Southeast Asia,Thailand
+Southeast Asia,Brunei Darussalam
+Southeast Asia,Philippines
+Southeast Asia,Myanmar
+Southeast Asia,Malaysia
+Southeast Asia,Lao P.D.R.
+Southeast Asia,Singapore
+Southeast Asia,Vietnam
+Southeast Asia,Indonesia
+Southeast Asia,Cambodia
+Sub-Saharan Africa (Region),Singapore
+Sub-Saharan Africa (Region),Vietnam
+Sub-Saharan Africa (Region),Indonesia
+Sub-Saharan Africa (Region),Timor-Leste
+Sub-Saharan Africa (Region),Cambodia
+Sub-Saharan Africa (Region),Philippines
+Sub-Saharan Africa (Region),Brunei Darussalam
+Sub-Saharan Africa (Region),Myanmar
+Sub-Saharan Africa (Region),Malaysia
+Sub-Saharan Africa (Region),Thailand
+Sub-Saharan Africa (Region),Lao P.D.R.
+Western Europe,San Marino
+Western Europe,United Kingdom
+Western Europe,Malta
+Western Europe,Andorra
+Western Europe,Ireland
+Western Europe,Netherlands
+Western Europe,Portugal
+Western Europe,Norway
+Western Europe,Austria
+Western Europe,France
+Western Europe,Denmark
+Western Europe,Germany
+Western Europe,Italy
+Western Europe,Belgium
+Western Europe,Iceland
+Western Europe,Spain
+Western Europe,Switzerland
+Western Europe,Finland
+Western Europe,Sweden
+Western Europe,Luxembourg
+Western Europe,Cyprus
+Western Europe,Greece
+Western Hemisphere (Region),Jamaica
+Western Hemisphere (Region),Guyana
+Western Hemisphere (Region),Belize
+Western Hemisphere (Region),Haiti
+Western Hemisphere (Region),Guatemala
+Western Hemisphere (Region),Nicaragua
+Western Hemisphere (Region),"Bahamas, The"
+Western Hemisphere (Region),Mexico
+Western Hemisphere (Region),Barbados
+Western Hemisphere (Region),Paraguay
+Western Hemisphere (Region),Grenada
+Western Hemisphere (Region),Costa Rica
+Western Hemisphere (Region),Saint Lucia
+Western Hemisphere (Region),Colombia
+Western Hemisphere (Region),Saint Vincent and the Grenadines
+Western Hemisphere (Region),Puerto Rico
+Western Hemisphere (Region),Dominica
+Western Hemisphere (Region),Suriname
+Western Hemisphere (Region),Chile
+Western Hemisphere (Region),Trinidad and Tobago
+Western Hemisphere (Region),Dominican Republic
+Western Hemisphere (Region),Bolivia
+Western Hemisphere (Region),United States
+Western Hemisphere (Region),Uruguay
+Western Hemisphere (Region),Antigua and Barbuda
+Western Hemisphere (Region),Peru
+Western Hemisphere (Region),Venezuela
+Western Hemisphere (Region),Ecuador
+Western Hemisphere (Region),Brazil
+Western Hemisphere (Region),Saint Kitts and Nevis
+Western Hemisphere (Region),El Salvador
+Western Hemisphere (Region),Argentina
+Western Hemisphere (Region),Panama
+Western Hemisphere (Region),Canada
+Western Hemisphere (Region),Honduras
